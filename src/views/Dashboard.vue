@@ -1,4 +1,5 @@
 <template>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <div class="sidebar active">
     <div class="logo_content">
       <div class="logo">
@@ -9,63 +10,65 @@
     <ul class="nav_list">
       <li>
         <a href="#">
-          <i class="bx bx-grid-alt"></i>
-          <span class="link_names">Dashboard</span>
+          <i class="fa fa-child"></i>
+          <span class="link_names">Cliente</span>
         </a>
-        <span class="tooltip">Dashboard</span>
+        <span class="tooltip">Cliente</span>
       </li>
       <li>
         <a href="#">
-          <i class="bx bx-user"></i>
-          <span class="link_names">User</span>
+          <i class="fa fa-building"></i>
+          <span class="link_names">Departamento</span>
         </a>
-        <span class="tooltip">User</span>
+        <span class="tooltip">Departamento</span>
       </li>
       <li>
         <a href="#">
-          <i class="bx bx-chat"></i>
-          <span class="link_names">Messages</span>
+          <i class="fa fa-briefcase"></i>
+          <span class="link_names">Empleado</span>
         </a>
-        <span class="tooltip">Messages</span>
+        <span class="tooltip">Empleado</span>
       </li>
       <li>
         <a href="#">
-          <i class="bx bx-pie-chart-alt-2"></i>
-          <span class="link_names">Analytics</span>
+          <i class="fa fa-money"></i>
+          <span class="link_names">Factura</span>
         </a>
-        <span class="tooltip">Analytics</span>
+        <span class="tooltip">Factura</span>
       </li>
       <li>
         <a href="#">
-          <i class="bx bx-folder"></i>
-          <span class="link_names">Files</span>
+          <i class="fa fa-id-badge"></i>
+          <span class="link_names">Puesto</span>
         </a>
-        <span class="tooltip">Files</span>
+        <span class="tooltip">Puesto</span>
       </li>
       <li>
         <a href="#">
-          <i class="bx bx-cart-alt"></i>
-          <span class="link_names">Orders</span>
+          <i class="fa fa-address-card"></i>
+          <span class="link_names">Rol</span>
         </a>
-        <span class="tooltip">Orders</span>
+        <span class="tooltip">Rol</span>
       </li>
       <li>
         <a href="#">
-          <i class="bx bx-heart"></i>
-          <span class="link_names">Liked</span>
+          <i class="fa fa-user"></i>
+          <span class="link_names">Usuario</span>
         </a>
-        <span class="tooltip">Liked</span>
+        <span class="tooltip">Usuario</span>
       </li>
       <li>
         <a href="#">
-          <i class="bx bx-cog"></i>
-          <span class="link_names">Settings</span>
+          <i class="fa fa-close"></i>
+          <span class="link_names">Exit</span>
         </a>
-        <span class="tooltip">Settings</span>
+        <span class="tooltip">Exit</span>
       </li>
     </ul>
   </div>
 </template>
+
+
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
@@ -85,7 +88,7 @@
   width: 240px;
 }
 .sidebar .logo_content .logo {
-  left: 56px;
+  left: 70px;
   color: #fff;
   display: flex;
   height: 50px;
